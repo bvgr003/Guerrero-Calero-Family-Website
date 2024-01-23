@@ -1,7 +1,10 @@
-body{background-color: ;
-    text-align: center; 
-    border: ;
-    border-radius: 10px;
+body{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: darkslategrey;
     }
 
 .logo{background: url("Logos/2.jpg");
@@ -13,25 +16,17 @@ body{background-color: ;
     background-repeat: no-repeat;
 }
 
-.wrapper-main{
-    width: inherit;
-    padding: 100px 0;
-    margin: 0 auto;
-    border: 4px solid transparent;
-    background-color: darkslategrey; 
-    border-radius: 100px;
-}
-
 button {font-size: 35px;
         border: none;
         color: red;
         background-color:yellow;
-    text-shadow: 3px 3px 2px black;
+        text-shadow: 3px 3px 2px black;
         -webkit-text-stroke-width:2px;
         -webkit-text-stroke-color:black;
         border-radius: 10px; 
         opacity:;
         float: center;
+        text-align: center;
     }
 
 u {color: yellow;
@@ -73,12 +68,14 @@ a {font-size: 75px;
     text-decoration: none;
     }
 
-img {border: 2px inset transparent;
+img {
     border-radius: 10px;
-    float: center;
-    width:  175px;
-    height: 175px;
     object-fit: cover;
+    height: 150px;
+    width: 150px;
+    
+}
+
 }
 
 span {font-size: 75px;
@@ -124,13 +121,7 @@ h3 {color: yellow;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
-div{
-width: 50%;
-border: ;
-margin: auto;
-background-color: ;
-opacity: 100;
-} 
+
 
 
 
