@@ -1,6 +1,6 @@
-body{background-color: darkslategrey;
+body{background-color: ;
     text-align: center; 
-    border: solid green;
+    border: ;
     border-radius: 10px;
     }
 
@@ -30,7 +30,7 @@ button {font-size: 35px;
         -webkit-text-stroke-width:2px;
         -webkit-text-stroke-color:black;
         border-radius: 10px; 
-        opacity: 0.50;
+        opacity:;
         float: center;
     }
 
@@ -116,7 +116,7 @@ h3 {color: yellow;
         -webkit-transition-duration: 0.4s; /* Safari */
         transition-duration: 0.4s;
         border-radius: 10px;
-        opacity: 0.5;
+        opacity:;
         float: center;
 }
 
@@ -126,9 +126,9 @@ h3 {color: yellow;
 
 div{
 width: 50%;
-border: 2px solid yellow;
+border: ;
 margin: auto;
-background-color: forestgreen;
+background-color: ;
 opacity: 100;
 } 
 
