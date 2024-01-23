@@ -1,3 +1,9 @@
+body{background-color: darkslategrey;
+    text-align: center; 
+    border: solid green;
+    border-radius: 10px;
+    }
+
 .logo{background: url("Logos/2.jpg");
     display: block;
     margin-left: auto;
@@ -6,14 +12,16 @@
     width: 300px;
     background-repeat: no-repeat;
 }
+
 .wrapper-main{
     width: inherit;
     padding: 100px 0;
     margin: 0 auto;
-    border: 4px solid green;
-    background-color: transparent; 
+    border: 4px solid transparent;
+    background-color: darkslategrey; 
     border-radius: 100px;
 }
+
 button {font-size: 35px;
         border: none;
         color: red;
@@ -25,10 +33,12 @@ button {font-size: 35px;
         opacity: 0.50;
         float: center;
     }
+
 u {color: yellow;
     -webkit-text-stroke-width:2px;
     -webkit-text-stroke-color:red;
     }
+
 b {font-size: 75px;
     color: red;
     -webkit-text-stroke-width:2px;
@@ -40,6 +50,7 @@ strong {font-size: 30px;
     -webkit-text-stroke-width:1px;
     -webkit-text-stroke-color:black;
      }
+
 video {border: 10px transparent;
     outline-color: solid red;
     border-radius: 10px;
@@ -48,17 +59,20 @@ video {border: 10px transparent;
     height: 150px;
     object-fit: cover;
      }
+
 p {font-size: 50px;	
     color: yellow;
     -webkit-text-stroke-width:2px;
     -webkit-text-stroke-color:black;
  }
+
 a {font-size: 75px;
     color: white;
     -webkit-text-stroke-width:1px;
     -webkit-text-stroke-color:black;
     text-decoration: none;
     }
+
 img {border: 2px inset transparent;
     border-radius: 10px;
     float: center;
@@ -66,6 +80,7 @@ img {border: 2px inset transparent;
     height: 175px;
     object-fit: cover;
 }
+
 span {font-size: 75px;
      color: yellow;
      border: solid;
@@ -74,19 +89,19 @@ span {font-size: 75px;
     -webkit-text-stroke-width:2px;
     -webkit-text-stroke-color:black;
  }
-body{background-color: darkslategrey;
-    text-align: center;    
-    }
+
 h1 {color: yellow;
     font-size: 75px;
     -webkit-text-stroke-width:2px;
     -webkit-text-stroke-color:black;
     }
+
 h3 {color: yellow;
     font-size: 50px;
     -webkit-text-stroke-width:2px;
     -webkit-text-stroke-color:black;
     }
+
 .button {
         background-color: yellow; /* Green */
         border: none;
@@ -104,9 +119,11 @@ h3 {color: yellow;
         opacity: 0.5;
         float: center;
 }
+
 .button1 {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
+
 div{
 width: 50%;
 border: 2px solid yellow;
@@ -114,6 +131,7 @@ margin: auto;
 background-color: forestgreen;
 opacity: 100;
 } 
+
 
 
 
