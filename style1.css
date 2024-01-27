@@ -1,0 +1,129 @@
+body{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-color: darkslategrey;
+    background-image: url(Backgrounds/set-wild-animals_1308-29055-1.png); 
+    }
+
+.logo{background: url("Logos/2.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 325px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+button {font-size: 35px;
+        border: none;
+        color: red;
+        background-color:yellow;
+        text-shadow: 3px 3px 2px black;
+        -webkit-text-stroke-width:2px;
+        -webkit-text-stroke-color:black;
+        border-radius: 10px; 
+        opacity:;
+        float: center;
+        text-align: center;
+    }
+
+u {color: yellow;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:red;
+    }
+
+b {font-size: 75px;
+    color: red;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+     }
+
+strong {font-size: 30px;	
+    color: red;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:black;
+     }
+
+video {border: 10px transparent;
+    outline-color: solid red;
+    border-radius: 10px;
+    float: center;
+    width:  150px;
+    height: 150px;
+    object-fit: cover;
+     }
+
+p {font-size: 50px;	
+    color: yellow;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+ }
+
+a {font-size: 75px;
+    color: white;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:black;
+    text-decoration: none;
+    }
+
+img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+   
+}
+
+}
+
+span {font-size: 75px;
+     color: yellow;
+     border: solid;
+     border-color:red;
+     border-radius: 10px;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+ }
+
+h1 {color: yellow;
+    font-size: 75px;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+    }
+
+h3 {color: yellow;
+    font-size: 50px;
+    -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+    }
+
+.button {
+        background-color: yellow; /* Green */
+        border: none;
+        color: white;
+        padding: 7px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 27px;
+        margin: 4px 2px;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        border-radius: 10px;
+        opacity:;
+        float: center;
+}
+
+.button1 {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+
+
+
+
+
