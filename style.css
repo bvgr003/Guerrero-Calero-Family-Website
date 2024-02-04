@@ -13,10 +13,10 @@ body {
 }
 
  img {
+      height: 150px;
+      width: 150px;
       float: center;
       margin: 15px; 
-      height: 175px;
-      width: 175px;
       border-radius:10px;
       object-fit: cover;
       border: solid; 
