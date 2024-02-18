@@ -58,7 +58,7 @@ h3 {
 }
 
 h1 {
-    color: yellow;
+    color: #FFFF00;
     font-size: 75px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
@@ -263,3 +263,10 @@ img {
     border: 2px solid yellow;
     border-radius: 10px;
 }
+
+.footer {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    height: 300px;
+}
+
