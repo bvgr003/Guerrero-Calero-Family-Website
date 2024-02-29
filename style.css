@@ -3,7 +3,7 @@ body {
     justify-content: center;
     margin: auto;
     background-color: darkslategray;
-    background-image: url(Backgrounds/set-wild-animals_1308-29055-1.png);
+    background-image: url(Backgrounds/set-wild-animals_1308-29055-1.p);
     background-repeat: repeat;
     background-attachment: fixed;
     padding-top: 20px;
@@ -194,7 +194,8 @@ img {
     border: 2px solid #FF6347;
     border-radius: 10px;
     object-fit: cover;
-
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .overlay {
@@ -268,5 +269,23 @@ img {
     border: 2px solid yellow;
     border-radius: 10px;
     height: 300px;
+}
+
+.border-images {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.border-footer {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
