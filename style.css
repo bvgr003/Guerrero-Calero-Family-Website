@@ -292,3 +292,30 @@ hr {
     border-color: yellow;
 }
 
+.body2 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color: darkgoldenrod;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.notice {
+    text-align: center;
+}
+
+.heading {
+    font-size: 2em;
+}
+
+.subheading {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}

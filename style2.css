@@ -60,6 +60,22 @@
     font-size: 45px;
 }
 
+#scrollToTop1 {
+    display: none;
+    position: relative;
+    bottom: 20px;
+    right: 200px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #FF6347;
+    color: yellow;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 45px;
+}
+
 button {
     padding: 10px;
     border-radius: 10px;
