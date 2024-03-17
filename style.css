@@ -28,7 +28,6 @@ button {
 
 .button {
     background-color: yellow;
-    /* Green */
     border: none;
     color: white;
     padding: 7px 16px;
@@ -39,7 +38,6 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
     border-radius: 10px;
     opacity: ;
@@ -287,5 +285,10 @@ img {
     padding-bottom: 50px;
     padding-left: 25px;
     padding-right: 25px;
+}
+
+hr {
+    border-style: solid;
+    border-color: yellow;
 }
 
