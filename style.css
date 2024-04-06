@@ -22,7 +22,7 @@ img {
 h1 {
     font-family: 'Allerta Stencil';
     font-size: 75px;
-    color: black;
+    color: #FFC300;
 }
 
 main {
@@ -32,13 +32,17 @@ main {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+    height: auto;
+    width: auto;
 
 }
 
 footer {
     border: 2px solid yellow;
     border-radius: 10px;
-    height: 650px;
+    width: auto;
+    height: auto;
+    padding: 10px;
 }
 
 hr {
@@ -56,26 +60,31 @@ video {
 }
 
  .sign {
-    background-color: yellow;
+    background-color: #FFA500;
     color: white;
     text-align: center;
     margin: 20px auto;
-    max-width: 600px;
-    max-height: 150px;
+    max-width: auto;
+    max-height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 75px;
   }
 
- .sign2 {
-    background-color: yellow;
-    color: white;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 600px;
-    max-height: 500px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 75px;
-  }
+.container {
+        max-width: 600px;
+        margin: 100px auto;
+        padding: 20px;
+        background-color: orangered;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+        color: #333;
+    }
+    p {
+        color: black;
+        margin-bottom: 20px;
+    }
+
 
