@@ -20,9 +20,18 @@ img {
 }
 
 h1 {
-    font-family: 'Allerta Stencil';
     font-size: 75px;
-    color: #FFC300;
+    color: #40E0D0;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    font-family: arial black;
+}
+
+p, .pcolor {
+    font-size: 75px;
+    color: #FFA500;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    font-family: arial black;
+    text-align: justify-all;
 }
 
 main {
@@ -70,21 +79,5 @@ video {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 75px;
   }
-
-.container {
-        max-width: 600px;
-        margin: 100px auto;
-        padding: 20px;
-        background-color: orangered;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-        color: #333;
-    }
-    p {
-        color: black;
-        margin-bottom: 20px;
-    }
 
 
