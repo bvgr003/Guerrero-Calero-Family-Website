@@ -7,9 +7,14 @@ img {
     border: 2px solid yellow;
     border-radius: 10px;
     height: 300px;
-    width: 300px;
+    width: calc(33.33% - 20px); /* 33.33% for three images, minus 20px for margins */
     object-fit: cover;
+    margin-right: 5px; /* margin between images */
     margin-bottom: 10px;
+}
+
+img:nth-child(3n-2) {
+    margin-left: 0;
 }
 
 .header {
