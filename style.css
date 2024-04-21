@@ -7,13 +7,13 @@ img {
     border: 2px solid yellow;
     border-radius: 10px;
     height: 300px;
-    width: calc(33.33% - 20px); /* 33.33% for three images, minus 20px for margins */
+    width: calc(33.33% - 20px); 
     object-fit: cover;
-    margin-right: 5px; /* margin between images */
+    margin-right: 5px; 
     margin-bottom: 10px;
 }
 
-img:nth-child(3n-2) {
+img, .main-images, :nth-child(3n-2) {
     margin-left: 0;
 }
 
@@ -81,3 +81,14 @@ video {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 75px;
   }
+
+   .main-images {
+        display: flex; /* Use flexbox */
+        flex-wrap: wrap; /* Wrap items to the next line */
+        justify-content: space-around; /* Distribute items evenly with space around */
+    }
+
+    .main-images a {
+        flex: 0 0 calc(33.33% - 20px); /* Each image takes up 33.33% of the container with some flex */
+        margin: 10px; /* Add margin between images */
+    }
