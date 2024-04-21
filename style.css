@@ -9,11 +9,7 @@ img {
     height: 300px;
     width: 300px;
     object-fit: cover;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin: 10px;
-    
-
+    margin-bottom: 10px;
 }
 
 .header {
@@ -45,7 +41,6 @@ main {
     padding-right: 20px;
     height: auto;
     width: auto;
-
 }
 
 footer {
@@ -81,11 +76,3 @@ video {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 75px;
   }
-
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-}
