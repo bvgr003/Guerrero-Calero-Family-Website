@@ -54,7 +54,7 @@ footer {
     width: auto;
     height: auto;
     padding: 10px;
-}
+} 
 
 hr {
     border: 1px solid yellow;
@@ -83,12 +83,29 @@ video {
   }
 
    .main-images {
-        display: flex; /* Use flexbox */
-        flex-wrap: wrap; /* Wrap items to the next line */
-        justify-content: space-around; /* Distribute items evenly with space around */
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-around; 
     }
 
     .main-images a {
-        flex: 0 0 calc(33.33% - 20px); /* Each image takes up 33.33% of the container with some flex */
-        margin: 10px; /* Add margin between images */
+        flex: 0 0 calc(33.33% - 20px); 
+        margin: 10px; 
     }
+
+.footer-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-images img {
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+    height: 350px;
+    width: 350px;
+}
+
+
+
