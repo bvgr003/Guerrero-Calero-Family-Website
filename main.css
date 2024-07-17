@@ -7,13 +7,15 @@ img {
     border: 2px solid yellow;
     border-radius: 10px;
     height: 300px;
-    width: calc(33.33% - 20px); 
+    width: calc(33.33% - 20px);
     object-fit: cover;
-    margin-right: 5px; 
+    margin-right: 5px;
     margin-bottom: 10px;
 }
 
-img, .main-images, :nth-child(3n-2) {
+img,
+.main-images,
+:nth-child(3n-2) {
     margin-left: 0;
 }
 
@@ -29,7 +31,8 @@ h1 {
     font-family: arial black;
 }
 
-p, .pcolor {
+p,
+.pcolor {
     font-size: 75px;
     color: #FFA500;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
@@ -54,7 +57,7 @@ footer {
     width: auto;
     height: auto;
     padding: 10px;
-} 
+}
 
 hr {
     border: 1px solid yellow;
@@ -70,7 +73,7 @@ video {
     margin-top: 10px;
 }
 
- .sign {
+.sign {
     background-color: #FFA500;
     color: white;
     text-align: center;
@@ -80,18 +83,18 @@ video {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 75px;
-  }
+}
 
-   .main-images {
-        display: flex; 
-        flex-wrap: wrap; 
-        justify-content: space-around; 
-    }
+.main-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-    .main-images a {
-        flex: 0 0 calc(33.33% - 20px); 
-        margin: 10px; 
-    }
+.main-images a {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+}
 
 .footer-images {
     display: flex;
@@ -101,8 +104,8 @@ video {
 }
 
 .footer-images img {
-    margin-right: 20px; 
-    margin-bottom: 20px; 
+    margin-right: 20px;
+    margin-bottom: 20px;
     height: 350px;
     width: 350px;
 }
@@ -112,7 +115,7 @@ video {
     border-radius: 10px;
     text-align: center;
     padding: 50px;
-   
+
 }
 
 .flags img {
@@ -125,4 +128,7 @@ video {
 
 }
 
-
+.iframe {
+    border: 2px solid white;
+    color: white;
+}
